@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import { AppRegistry, View, Image, StyleSheet, Text, Dimensions } from 'react-native';
-import { TouchableWithoutFeedback } from 'react-native-web';
 
 export default function App() {
   return (
@@ -11,7 +10,7 @@ export default function App() {
         /> 
         <Text style={styles.msg}>To: Chester Hlungwani.</Text>
         <Text style={styles.msg1}>“Today is the day you were brought into this world to be<br></br> a blessing and inspiration to the people around you!<br></br> I'm not
-        sure what you learned this year, but every<br></br>experience transforms us into the people we are today.<br></br> <br></br> You are a wonderful person!May you 
+        sure what you learned this year, but every<br></br>experience transforms us into the people we are today.<br></br> <br></br> You are a wonderful person! May you 
         be given more<br></br> birthdays to fulfill all of your dreams!”<br></br><br></br> Happy birthday!</Text> 
       </View>
      {/* <View style={styles.container1}>
@@ -34,7 +33,7 @@ const styles = StyleSheet.create({
   title: {
     textAlign: 'center',
     textTransform: "uppercase",
-    fontSize: 48,
+    fontSize: 54,
     fontFamily: 'f',
   },
   container1: {
@@ -48,7 +47,7 @@ const styles = StyleSheet.create({
   },
   msg: {
     textAlign: 'unset',
-    fontFamily: 'Arial',
+    fontFamily: 'f',
     textTransform: "uppercase",
     fontSize: 26,
     padding: 15,
@@ -59,6 +58,7 @@ const styles = StyleSheet.create({
   msg1: {
     display: 'flex',
     textAlign: 'center',
+    fontFamily: 'Arial',
     fontSize: 20,
     paddingTop: 30,
     top: 42,
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     position: 'relative',
     left: -280,
     width: 520,
-    height: 420,
+    height: 460,
     borderRadius: 15,
   },
 });
